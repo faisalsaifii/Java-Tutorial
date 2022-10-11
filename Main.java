@@ -42,17 +42,17 @@ public class Main {
         // Floating Point Numbers
         // 4 Bytes
         // Range: 7 decimal places
-        float f = 1.1234567890f;
+        float f = 1e10f;
         System.out.println(f);
 
         // Double
         // 8 bytes
         // Range: 15 decimal places
-        double db = 1.123456789012345;
+        double db = 1.123456789012345d;
         System.out.println(db);
 
         // Long
-        long l = 123456789;
+        long l = 123456789L;
         System.out.println(l);
         // Short
         short s = 32767;
@@ -66,8 +66,8 @@ public class Main {
         // Boolean
         // 1 byte
         // Range: true or false
-        boolean bool = true;
-        System.out.println(bool);
+        boolean isBool = true;
+        System.out.println(isBool);
 
         // Identifiers
         // Rules to naming variables, functions, etc.
